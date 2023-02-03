@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.information input {
+  width: 300px;
+  height: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.information button {
+  padding: 15px;
+  margin: 10px;
+}
+
+.employee-container {
+  width: 80%;
+  margin: 20px;
+  border-style: dotted;
+  border-width: 100%;
+}
+
+.employee-container p {
+  padding-left: 20px;
+}
+
+.employee-container input {
+  margin-left: 20px;
+}
